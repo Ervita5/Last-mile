@@ -10,5 +10,4 @@ Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menj
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Screenshot%20(92).png" alt="Customer Locations Map" width="250">
-    <figcaption>Persebaran lokasi pelanggan pada map</figcaption>
 </div>
