@@ -15,16 +15,14 @@ Pengiriman barang pada tahap _last mile_ sering dianggap sebagai tahap yang pali
 menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem _truck-drone_  menggunakan _mean shift clustering_ dan algoritma genetika, diharapkan dapat mengatasi permasalahan tersebut.
 
 ## Hasil dan Diskusi
-Dalam membandingkan hasil dari metode _mean shift clustering_ dengan _clustering_ dengan metode intuitif kriteria dalam aspek jumlah cluster diterapkan untuk menilai efektivitas 
+Dalam membandingkan hasil dari metode _mean shift clustering_ dengan _clustering_ dengan metode _intuitif_ kriteria dalam aspek jumlah cluster diterapkan untuk menilai efektivitas 
 keduanya dalam konteks permasalahan _Parking Location Traveling Salesman Problem with Homogenous Drone_ (PLTSPHD).
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Clustering.png" alt="Customer Locations Map" width="600">
 </div>
 
-Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbedaan signifikan dalam jumlah cluster yang dihasilkan oleh keduanya. Mean shift clustering menghasilkan 7 cluster, sementara solusi clustering dengan metode intuitif menghasilkan 19 cluster dan 2 outlier.
-
-Setelah melakukan proses clustering dan didapatkan centroid-centroid, selanjutnya melakukan proses routing untuk mencari rute optimal pengiriman barang menggunakan kendaraan truck dengan metode algoritma genetika. Proses routing diimplementasikan melalui program dengan bahasa Python yang dijalankan pada Google Collab.
+Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbedaan signifikan dalam jumlah _cluster_ yang dihasilkan oleh keduanya. _Mean shift clustering_ menghasilkan 7 _cluster,_ sementara _clustering_ dengan metode _intuitif_ menghasilkan 19 _cluster_ dan 2 _outlier_. Setelah melakukan proses _clustering_ dan didapatkan centroid-centroid, selanjutnya melakukan proses routing untuk mencari rute optimal pengiriman barang menggunakan kendaraan truck dengan metode algoritma genetika. Proses routing diimplementasikan melalui program dengan bahasa Python yang dijalankan pada Google Collab.
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Routing.png" alt="Customer Locations Map" width="800">
