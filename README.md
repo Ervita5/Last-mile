@@ -25,6 +25,9 @@ menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem _truc
 ## Hasil dan Diskusi
 
 
+<div align="center">
+    <img src="https://github.com/Ervita5/Issue/blob/main/Screenshot%20(173).png" alt="Customer Locations Map" width="250">
+</div>
 
 ## Kesimpulan
 Permasalahan pengiriman barang dengan sistem _truck-drone_ pada tahap _last mile_ dapat 
