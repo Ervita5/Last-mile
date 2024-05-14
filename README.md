@@ -26,7 +26,7 @@ menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem _truc
 
 
 <div align="center">
-    <img src="https://github.com/Ervita5/Issue/blob/main/Screenshot%20(173).png" alt="Customer Locations Map" width="800">
+    <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan.png" alt="Customer Locations Map" width="800">
 </div>
 
 ## Kesimpulan
