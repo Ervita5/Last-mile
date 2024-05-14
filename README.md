@@ -12,6 +12,17 @@ Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menj
     <img src="https://github.com/Ervita5/Issue/blob/main/Screenshot%20(92).png" alt="Customer Locations Map" width="250">
 </div>
 
+## Permasalahan
+Pengiriman barang pada tahap last mile sering dianggap sebagai tahap yang paling mahal 
+dan kurang efisien. Last mile dikatakan mahal karena dari total biaya pengiriman secara 
+keseluruhan (first mile, middle mile, last mile) dapat mencapai 53% (Dolan, 2021). Oleh 
+karena itu, last mile menjadi fokus utama yang perlu diperhatikan dalam optimasi 
+pengiriman barang. Penggunaan sistem drone dalam last mile delivery merupakan salah 
+satu solusi untuk meningkatkan efektivitas pengiriman ini. Namun, drone memiliki 
+keterbatasan, yaitu radius jangkauan dan kapasitas angkut yang relatif kecil, sehingga 
+menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem truckdrone dan optimasi pengiriman PLTSPHD menggunakan mean shift clustering dan 
+algoritma genetika, diharapkan dapat mengatasi permasalahan tersebut.
+
 ## Hasil dan Diskusi
 
 
