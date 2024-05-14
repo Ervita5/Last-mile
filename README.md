@@ -28,14 +28,16 @@ metode intuitif kriteria dalam aspek jumlah cluster diterapkan untuk menilai efe
 keduanya dalam konteks permasalahan _Parking Location Traveling Salesman Problem with Homogenous Drone_ (PLTSPHD).
 
 <div align="center">
+    <img src="https://github.com/Ervita5/Issue/blob/main/Clustering.png" alt="Customer Locations Map" width="800">
+</div>
+Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbedaan signifikan dalam jumlah cluster yang dihasilkan oleh keduanya. Mean shift clustering menghasilkan 7 cluster, sementara solusi clustering dengan metode intuitif menghasilkan 19 cluster dan 2 outlier.
+
+<div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan.png" alt="Customer Locations Map" width="800">
 </div>
 
-Pada data ini, penggunaan mean shift clustering tampaknya lebih efisien dalam 
-membentuk kelompok data. Hal ini ditunjukan dari penurunan jumlah cluster yang dihasilkan 
-oleh metode mean shift clustering sebesar 63% dibandingkahn metode intuitif. Jumlah cluster
-yang lebih sedikit yang dihasilkan dapat dianggap menguntungkan dalam konteks 
-permasalahan PLTSPHD yang menekankan minimalisasi biaya transportasi. Berdasarkan Gambar 12 mean shift clustering menghasilkan biaya yang lebih efisien dibandingkan dengan metode intutif. Hal ini ditunjukan dari penurunan biaya mean shift clustering sebesar 3,51 %. Selain itu, hasil juga menunjukkan bahwa mean shift clustering dapat mengurangi total jarak sebesar 27,93% dan waktu tempuh 25,83 %. dibandingkan metode intuitif.
+Pada data ini, penggunaan mean shift clustering tampaknya lebih efisien dalam  membentuk kelompok data. Hal ini ditunjukan dari penurunan jumlah cluster yang dihasilkan oleh metode mean shift clustering sebesar 63% dibandingkahn metode intuitif. Jumlah cluster yang lebih sedikit yang dihasilkan dapat dianggap menguntungkan dalam konteks permasalahan PLTSPHD yang menekankan minimalisasi biaya transportasi. Berdasarkan gambar diatas mean shift clustering menghasilkan biaya yang lebih efisien dibandingkan dengan metode intutif. Hal ini ditunjukan dari penurunan biaya mean shift clustering sebesar 3,51 %. Selain itu, hasil juga menunjukkan bahwa mean shift clustering dapat mengurangi total jarak sebesar 27,93% dan waktu tempuh 
+25,83 %. dibandingkan metode intuitif.
 
 ## Kesimpulan
 Permasalahan pengiriman barang dengan sistem _truck-drone_ pada tahap _last mile_ dapat 
