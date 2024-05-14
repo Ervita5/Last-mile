@@ -8,7 +8,10 @@ pengiriman.
 
 Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menjadi tujuan pengiriman paket. Lokasi-lokasi ini tersebar di wilayah Jabodetabek. Diasumsikan bahwa setiap lokasi pelanggan hanya memiliki satu permintaan atau satu paket.
 
-<figure align="center">
+<div style="text-align: center;">
+  <div style="display: inline-block; text-align: center;">
     <img src="https://github.com/Ervita5/Issue/blob/main/Screenshot%20(92).png" alt="Customer Locations Map" width="250">
-    <figcaption>Persebaran lokasi pelanggan pada map</figcaption>
-</figure>
+    <br>
+    <span style="font-style: italic;">Persebaran lokasi pelanggan pada map</span>
+  </div>
+</div>
