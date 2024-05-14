@@ -22,13 +22,13 @@ keduanya dalam konteks permasalahan _Parking Location Traveling Salesman Problem
     <img src="https://github.com/Ervita5/Issue/blob/main/Clustering.png" alt="Customer Locations Map" width="600">
 </div>
 
-Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbedaan signifikan dalam jumlah _cluster_ yang dihasilkan oleh keduanya. _Mean shift clustering_ menghasilkan 7 _cluster,_ sementara _clustering_ dengan metode _intuitif_ menghasilkan 19 _cluster_ dan 2 _outlier_. Setelah melakukan proses _clustering_ dan didapatkan centroid-centroid, selanjutnya melakukan proses routing untuk mencari rute optimal pengiriman barang menggunakan kendaraan truck dengan metode algoritma genetika. Proses routing diimplementasikan melalui program dengan bahasa Python yang dijalankan pada Google Collab.
+Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbedaan signifikan dalam jumlah _cluster_ yang dihasilkan oleh keduanya. _Mean shift clustering_ menghasilkan 7 _cluster,_ sementara _clustering_ dengan metode _intuitif_ menghasilkan 19 _cluster_ dan 2 _outlier_. Setelah melakukan proses _clustering_ dan didapatkan _centroid-centroid_, selanjutnya melakukan proses _routing_ untuk mencari rute optimal pengiriman barang menggunakan kendaraan _truck_ dengan metode algoritma genetika. Proses _routing_ diimplementasikan melalui program dengan bahasa _Python_ yang dijalankan pada Google Collab.
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Routing.png" alt="Customer Locations Map" width="800">
 </div>
 
-Membangkitkan populasi awal terlebih dahulu menggunakan ANN (All Nearest Neighbors). Didapatkan rute 0 – 2 – 5 – 1 – 6 – 3 – 7 – 4 – 0, menunjukkan jarak terpendek dengan nilai 55,42 km. 
+Membangkitkan populasi awal terlebih dahulu menggunakan ANN (_All Nearest Neighbors_). Didapatkan rute 0 – 2 – 5 – 1 – 6 – 3 – 7 – 4 – 0, menunjukkan jarak terpendek dengan nilai 55,42 km. 
 
 Proses algoritma genetika dalam program dengan bahasa python dijalankan sebanyak 100 generasi. Setelah 100 generasi didapatkan solusi rute optimal yaitu 0 – 5 – 2 – 1 – 6 – 3 – 7 – 4 – 0 dengan nilai fitness 0,018440002685214583 dan total jarak 54,22 km.
 
@@ -38,8 +38,7 @@ Solusi ini lebih baik dibandingkan solusi yang diperoleh melalui metode ANN namu
     <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan.png" alt="Customer Locations Map" width="800">
 </div>
 
-Pada data ini, penggunaan mean shift clustering tampaknya lebih efisien dalam  membentuk kelompok data. Hal ini ditunjukan dari penurunan jumlah cluster yang dihasilkan oleh metode mean shift clustering sebesar 63% dibandingkahn metode intuitif. Jumlah cluster yang lebih sedikit yang dihasilkan dapat dianggap menguntungkan dalam konteks permasalahan PLTSPHD yang menekankan minimalisasi biaya transportasi. Berdasarkan gambar diatas mean shift clustering menghasilkan biaya yang lebih efisien dibandingkan dengan metode intutif. Hal ini ditunjukan dari penurunan biaya mean shift clustering sebesar 3,51 %. Selain itu, hasil juga menunjukkan bahwa mean shift clustering dapat mengurangi total jarak sebesar 27,93% dan waktu tempuh 
-25,83 %. dibandingkan metode intuitif.
+Pada data ini, penggunaan _mean shift clustering_ tampaknya lebih efisien dalam  membentuk kelompok data. Hal ini ditunjukan dari penurunan jumlah _cluster_ yang dihasilkan oleh metode _mean shift clustering_ sebesar 63% dibandingkahn metode _intuitif_. Jumlah _cluster_ yang lebih sedikit yang dihasilkan dapat dianggap menguntungkan dalam konteks permasalahan PLTSPHD yang menekankan minimalisasi biaya transportasi. Berdasarkan gambar diatas _mean shift clustering_ menghasilkan biaya yang lebih efisien dibandingkan dengan metode _intutif_. Hal ini ditunjukan dari penurunan biaya _mean shift clustering_ sebesar 3,51 %. Selain itu, hasil juga menunjukkan bahwa _mean shift clustering_ dapat mengurangi total jarak sebesar 27,93% dan waktu tempuh 25,83 %. dibandingkan metode _intuitif_.
 
 
 
