@@ -8,3 +8,11 @@ pengiriman.
 
 Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menjadi tujuan pengiriman paket. Lokasi-lokasi ini tersebar di wilayah Jabodetabek. Diasumsikan bahwa setiap lokasi pelanggan hanya memiliki satu permintaan atau satu paket.
 
+# Nama Proyek
+
+<div style="text-align: center;">
+    <img src="https://github.com/Ervita5/Issue/blob/main/Screenshot%20(92).png" alt="Customer Locations Map" width="500">
+</div>
+
+## Deskripsi
+Ini adalah deskripsi proyek Anda. Jelaskan secara singkat apa tujuan dari proyek ini dan apa saja fitur utamanya.
