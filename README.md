@@ -21,11 +21,20 @@ keduanya dalam konteks permasalahan _Parking Location Traveling Salesman Problem
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Clustering.png" alt="Customer Locations Map" width="600">
 </div>
+
 Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbedaan signifikan dalam jumlah cluster yang dihasilkan oleh keduanya. Mean shift clustering menghasilkan 7 cluster, sementara solusi clustering dengan metode intuitif menghasilkan 19 cluster dan 2 outlier.
+
+Setelah melakukan proses clustering dan didapatkan centroid-centroid, selanjutnya melakukan proses routing untuk mencari rute optimal pengiriman barang menggunakan kendaraan truck dengan metode algoritma genetika. Proses routing diimplementasikan melalui program dengan bahasa Python yang dijalankan pada Google Collab.
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Routing.png" alt="Customer Locations Map" width="800">
 </div>
+
+Membangkitkan populasi awal terlebih dahulu menggunakan ANN (All Nearest Neighbors). Didapatkan rute 0 – 2 – 5 – 1 – 6 – 3 – 7 – 4 – 0, menunjukkan jarak terpendek dengan nilai 55,42 km. 
+
+Proses algoritma genetika dalam program dengan bahasa python dijalankan sebanyak 100 generasi. Setelah 100 generasi didapatkan solusi rute optimal yaitu 0 – 5 – 2 – 1 – 6 – 3 – 7 – 4 – 0 dengan nilai fitness 0,018440002685214583 dan total jarak 54,22 km.
+
+Solusi ini lebih baik dibandingkan solusi yang diperoleh melalui metode ANN namun tidak terlalu signifikan.
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan.png" alt="Customer Locations Map" width="800">
