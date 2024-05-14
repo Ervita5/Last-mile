@@ -1,5 +1,5 @@
 # Last-mile
-Optimasi Rute Pengiriman Barang pada Tahap Last Mile dengan Truck-Drone Menggunakan Metode Mean Shift Clustering dan Algoritma Genetika
+Optimasi Rute Pengiriman Barang pada Tahap _Last Mile_ dengan _Truck-Drone_ Menggunakan Metode _Mean Shift Clustering_ dan Algoritma Genetika
 
 ## Data Penelitian
 Data penelitian yang digunakan meliputi informasi lokasi depot, lokasi pelanggan, 
@@ -13,28 +13,27 @@ Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menj
 </div>
 
 ## Permasalahan
-Pengiriman barang pada tahap last mile sering dianggap sebagai tahap yang paling mahal 
+Pengiriman barang pada tahap _last mile _sering dianggap sebagai tahap yang paling mahal 
 dan kurang efisien. _Last mile_ dikatakan mahal karena dari total biaya pengiriman secara 
-keseluruhan (first mile, middle mile, last mile) dapat mencapai 53% (Dolan, 2021). Oleh 
-karena itu, last mile menjadi fokus utama yang perlu diperhatikan dalam optimasi 
-pengiriman barang. Penggunaan sistem drone dalam last mile delivery merupakan salah 
-satu solusi untuk meningkatkan efektivitas pengiriman ini. Namun, drone memiliki 
+keseluruhan (_first mile_, _middle mile_, _last mile_) dapat mencapai 53% (Dolan, 2021). Oleh 
+karena itu, _last mile_ menjadi fokus utama yang perlu diperhatikan dalam optimasi 
+pengiriman barang. Penggunaan sistem _drone_ dalam _last mile delivery_ merupakan salah 
+satu solusi untuk meningkatkan efektivitas pengiriman ini. Namun, _drone _memiliki 
 keterbatasan, yaitu radius jangkauan dan kapasitas angkut yang relatif kecil, sehingga 
-menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem truck-drone dan optimasi pengiriman PLTSPHD menggunakan mean shift clustering dan 
-algoritma genetika, diharapkan dapat mengatasi permasalahan tersebut.
+menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem _truck-drone_  menggunakan _mean shift clustering_ dan algoritma genetika, diharapkan dapat mengatasi permasalahan tersebut.
 
 ## Hasil dan Diskusi
 
 
 
 ## Kesimpulan
-Permasalahan pengiriman barang dengan sistem truck-drone pada tahap last mile dapat 
-dimodelkan menjadi Parking Location Traveling Salesman Problem with Homogenous Drone
-(PLTSPHD) dengan memperhatikan kendala jangkauan maksimum terbang drone dan jam kerja 
-pengiriman harian. Implementasi metode mean shift clustering pada model PLTSPHD 
-menghasilkan identifikasi cluster yang optimal untuk pelanggan. Hasil eksperimen 
+Permasalahan pengiriman barang dengan sistem _truck-drone_ pada tahap _last mile_ dapat 
+dimodelkan menjadi _Parking Location Traveling Salesman Problem with Homogenous Drone_
+(PLTSPHD) dengan memperhatikan kendala jangkauan maksimum terbang _drone_ dan jam kerja 
+pengiriman harian. Implementasi metode _mean shift clustering_ pada model PLTSPHD 
+menghasilkan identifikasi _cluster_ yang optimal untuk pelanggan. Hasil eksperimen 
 menunjukkan keefisienan metode ini dalam membentuk kelompok data dan menemukan lokasi 
-parkir optimal. Kombinasi mean shift clustering dan algoritma genetika 
+parkir optimal. Kombinasi _mean shift clustering_ dan algoritma genetika 
 membuktikan keunggulannya dalam mengoptimalkan rute pada konteks PLTSPHD. 
 Keseluruhan, penelitian ini memberikan kontribusi positif dalam meningkatkan efisiensi 
 pengiriman barang dengan memanfaatkan pendekatan clustering dan algoritma genetika.
