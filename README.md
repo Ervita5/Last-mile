@@ -1,6 +1,10 @@
 # Last-mile
 Optimasi Rute Pengiriman Barang pada Tahap _Last Mile_ dengan _Truck-Drone_ Menggunakan Metode _Mean Shift Clustering_ dan Algoritma Genetika
 
+## Permasalahan
+Pengiriman barang pada tahap _last mile_ sering dianggap sebagai tahap yang paling mahal dan kurang efisien. _Last mile_ dikatakan mahal karena dari total biaya pengiriman secara keseluruhan (_first mile_, _middle mile_, _last mile_) dapat mencapai 53% (Dolan, 2021). Oleh karena itu, _last mile_ seringkali menjadi fokus utama yang harus diperhatikan dalam optimasi pengiriman barang. Salah satu solusi yang dapat digunakan untuk meningkatkan efektivitas pengiriman ini adalah dengan menggunakan sistem _drone_. Namun, _drone_ memiliki keterbatasan, yaitu radius jangkauan dan kapasitas angkut yang relatif kecil, sehingga 
+menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem _truck-drone_  menggunakan _mean shift clustering_ dan algoritma genetika, diharapkan dapat mengatasi permasalahan tersebut.
+
 ## Data Penelitian
 Data penelitian yang digunakan meliputi informasi lokasi depot, lokasi pelanggan, armada pengiriman yang tersedia, jarak antar lokasi-lokasi, informasi waktu dan kecepatan pengiriman.
 
@@ -10,9 +14,17 @@ Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menj
     <img src="https://github.com/Ervita5/Issue/blob/main/Lokasi%20Pelanggan.png" alt="Customer Locations Map" width="250">
 </div>
 
-## Permasalahan
-Pengiriman barang pada tahap _last mile_ sering dianggap sebagai tahap yang paling mahal dan kurang efisien. _Last mile_ dikatakan mahal karena dari total biaya pengiriman secara keseluruhan (_first mile_, _middle mile_, _last mile_) dapat mencapai 53% (Dolan, 2021). Oleh karena itu, _last mile_ menjadi fokus utama yang perlu diperhatikan dalam optimasi pengiriman barang. Penggunaan sistem _drone_ dalam _last mile delivery_ merupakan salah satu solusi untuk meningkatkan efektivitas pengiriman ini. Namun, _drone_ memiliki keterbatasan, yaitu radius jangkauan dan kapasitas angkut yang relatif kecil, sehingga 
-menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem _truck-drone_  menggunakan _mean shift clustering_ dan algoritma genetika, diharapkan dapat mengatasi permasalahan tersebut.
+_Truck_ yang digunakan berjumlah satu dan berbentuk box. _Drone_ yang digunakan berjumlah 15 _drone_ yang homogen dan identik. Jenis _drone_ yang digunakan adalah _drone wings_. Berikut adalah beberapa spesifikasi untuk _drone wings_:
+
+_ Panjang drone 1,3 meter, panjang sayap 1 meter, dan berat sekitar 5,2 kg tanpa 
+paket.
+_ Jarak maksimum yang dapat ditempuh oleh drone wings dalam satu misi 
+pengiriman adalah 4 km.
+65
+_ Kecepatan rata – rata drone wings dalam melakukan pengiriman adalah 104,4 
+km/jam atau sekitar 0,57 menit/km
+_ Kapasitas muatan yang dapat diangkut oleh drone dalam satu misi pengiriman
+adalah 5 kg.
 
 ## Hasil dan Diskusi
 Dalam membandingkan hasil dari metode _mean shift clustering_ dengan _clustering_ dengan metode _intuitif_ kriteria dalam aspek jumlah cluster diterapkan untuk menilai efektivitas 
