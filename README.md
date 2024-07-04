@@ -8,7 +8,7 @@ menjadi pertimbangan yang perlu diatasi. Dengan adanya implementasi sistem _truc
 ## Data Penelitian
 Data penelitian yang digunakan meliputi informasi lokasi depot, lokasi pelanggan, armada pengiriman yang tersedia, jarak antar lokasi-lokasi, informasi waktu dan kecepatan pengiriman.
 
-Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menjadi tujuan pengiriman paket. Lokasi-lokasi ini tersebar di wilayah Jabodetabek. Diasumsikan bahwa setiap lokasi pelanggan hanya memiliki satu permintaan atau satu paket. Berikut gambar persebaran pelanggan pada peta
+Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menjadi tujuan pengiriman paket. Lokasi-lokasi ini tersebar di wilayah Jabodetabek. Diasumsikan bahwa setiap lokasi pelanggan hanya memiliki satu permintaan atau satu paket. Berikut gambar persebaran pelanggan pada peta.
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Lokasi%20Pelanggan.png" alt="Customer Locations Map" width="250">
