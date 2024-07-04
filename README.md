@@ -16,14 +16,14 @@ Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menj
 
 _Truck_ yang digunakan berjumlah satu dan berbentuk box. _Drone_ yang digunakan berjumlah 15 _drone_ yang homogen dan identik. Jenis _drone_ yang digunakan adalah _drone wings_. Berikut adalah beberapa spesifikasi untuk _drone wings_:
 
-_ Panjang drone 1,3 meter, panjang sayap 1 meter, dan berat sekitar 5,2 kg tanpa 
+- Panjang drone 1,3 meter, panjang sayap 1 meter, dan berat sekitar 5,2 kg tanpa 
 paket.
-_ Jarak maksimum yang dapat ditempuh oleh drone wings dalam satu misi 
+- Jarak maksimum yang dapat ditempuh oleh drone wings dalam satu misi 
 pengiriman adalah 4 km.
 65
-_ Kecepatan rata – rata drone wings dalam melakukan pengiriman adalah 104,4 
+- Kecepatan rata – rata drone wings dalam melakukan pengiriman adalah 104,4 
 km/jam atau sekitar 0,57 menit/km
-_ Kapasitas muatan yang dapat diangkut oleh drone dalam satu misi pengiriman
+- Kapasitas muatan yang dapat diangkut oleh drone dalam satu misi pengiriman
 adalah 5 kg.
 
 ## Hasil dan Diskusi
