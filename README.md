@@ -40,11 +40,11 @@ Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbe
 Proses _routing_ diawali dengan membangkitkan populasi awal terlebih dahulu menggunakan ANN (_All Nearest Neighbors_). Didapatkan rute 0 – 2 – 5 – 1 – 6 – 3 – 7 – 4 – 0, menunjukkan jarak terpendek dengan nilai 55,42 km. Setelah itu, Proses algoritma genetika dalam program dengan bahasa python dijalankan sebanyak 100 generasi. Setelah 100 generasi didapatkan solusi rute optimal yaitu 0 – 5 – 2 – 1 – 6 – 3 – 7 – 4 – 0 dengan nilai fitness 0,018440002685214583 dan total jarak 54,22 km. Solusi ini lebih baik dibandingkan solusi yang diperoleh melalui metode ANN namun tidak terlalu signifikan. Berikut ilustrasi hasil rute pengiriman barang.
 
 <div align="center">
-    <img src="https://github.com/Ervita5/Issue/blob/main/Routing.png" alt="Customer Locations Map" width="800">
+    <img src="https://github.com/Ervita5/Issue/blob/main/Routing.png" alt="Hasil routing untuk menemukan rute pengiriman barang" width="800">
 </div>
 
 <div align="center">
-    <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan(2).png" alt="Customer Locations Map" width="800">
+    <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan%20(2).png" alt="Grafik Perbandingan Hasil" width="800">
 </div>
 
 Pada data ini, penggunaan _mean shift clustering_ tampaknya lebih efisien dalam  membentuk kelompok data. Hal ini ditunjukan dari penurunan jumlah _cluster_ yang dihasilkan oleh metode _mean shift clustering_ sebesar 63% dibandingkah metode _intuitif_. Jumlah _cluster_ yang lebih sedikit yang dihasilkan dapat dianggap menguntungkan dalam konteks permasalahan PLTSPHD yang menekankan minimalisasi biaya transportasi. Berdasarkan gambar diatas _mean shift clustering_ menghasilkan biaya yang lebih efisien dibandingkan dengan metode _intutif_. Hal ini ditunjukan dari penurunan biaya _mean shift clustering_ sebesar 3,51 %. Selain itu, hasil juga menunjukkan bahwa _mean shift clustering_ dapat mengurangi total jarak sebesar 27,93% dan waktu tempuh 25,83 %. dibandingkan metode _intuitif_.
