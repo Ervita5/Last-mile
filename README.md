@@ -18,14 +18,13 @@ _Truck_ yang digunakan berjumlah satu dan berbentuk box.kecepatan rata-rata kend
 
 _Drone_ yang digunakan berjumlah 15 _drone_ yang homogen dan identik. Jenis _drone_ yang digunakan adalah _drone wings_. Berikut adalah beberapa spesifikasi untuk _drone wings_:
 
-- Panjang drone 1,3 meter, panjang sayap 1 meter, dan berat sekitar 5,2 kg tanpa 
+- Panjang _drone_ 1,3 meter, panjang sayap 1 meter, dan berat sekitar 5,2 kg tanpa 
 paket.
-- Jarak maksimum yang dapat ditempuh oleh drone wings dalam satu misi 
+- Jarak maksimum yang dapat ditempuh oleh _drone wings_ dalam satu misi 
 pengiriman adalah 4 km.
-65
-- Kecepatan rata – rata drone wings dalam melakukan pengiriman adalah 104,4 
+- Kecepatan rata – rata _drone wings_ dalam melakukan pengiriman adalah 104,4 
 km/jam atau sekitar 0,57 menit/km.
-- Kapasitas muatan yang dapat diangkut oleh drone dalam satu misi pengiriman
+- Kapasitas muatan yang dapat diangkut oleh _drone_ dalam satu misi pengiriman
 adalah 5 kg.
 
 ## Hasil dan Diskusi
