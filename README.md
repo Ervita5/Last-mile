@@ -14,7 +14,9 @@ Lokasi pelanggan terdiri dari 90 titik yang mencakup rumah atau tempat yang menj
     <img src="https://github.com/Ervita5/Issue/blob/main/Lokasi%20Pelanggan.png" alt="Customer Locations Map" width="250">
 </div>
 
-_Truck_ yang digunakan berjumlah satu dan berbentuk box. _Drone_ yang digunakan berjumlah 15 _drone_ yang homogen dan identik. Jenis _drone_ yang digunakan adalah _drone wings_. Berikut adalah beberapa spesifikasi untuk _drone wings_:
+_Truck_ yang digunakan berjumlah satu dan berbentuk box.kecepatan rata-rata kendaraan truck maksimal 50 km/jam.
+
+_Drone_ yang digunakan berjumlah 15 _drone_ yang homogen dan identik. Jenis _drone_ yang digunakan adalah _drone wings_. Berikut adalah beberapa spesifikasi untuk _drone wings_:
 
 - Panjang drone 1,3 meter, panjang sayap 1 meter, dan berat sekitar 5,2 kg tanpa 
 paket.
@@ -22,7 +24,7 @@ paket.
 pengiriman adalah 4 km.
 65
 - Kecepatan rata – rata drone wings dalam melakukan pengiriman adalah 104,4 
-km/jam atau sekitar 0,57 menit/km
+km/jam atau sekitar 0,57 menit/km.
 - Kapasitas muatan yang dapat diangkut oleh drone dalam satu misi pengiriman
 adalah 5 kg.
 
