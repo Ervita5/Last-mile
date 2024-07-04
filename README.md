@@ -37,15 +37,11 @@ keduanya dalam konteks permasalahan _Parking Location Traveling Salesman Problem
 
 Berdasarkan hasil visualisasi pada  gambar di atas terlihat bahwa terdapat perbedaan signifikan dalam jumlah _cluster_ yang dihasilkan oleh keduanya. _Mean shift clustering_ menghasilkan 7 _cluster,_ sementara _clustering_ dengan metode _intuitif_ menghasilkan 19 _cluster_ dan 2 _outlier_. Setelah melakukan proses _clustering_ dan didapatkan _centroid-centroid_, selanjutnya melakukan proses _routing_ untuk mencari rute optimal pengiriman barang menggunakan kendaraan _truck_ dengan metode algoritma genetika. Proses _routing_ diimplementasikan melalui program dengan bahasa _Python_ yang dijalankan pada Google Collab.
 
-Proses _routing_ diawali dengan membangkitkan populasi awal terlebih dahulu menggunakan ANN (_All Nearest Neighbors_). Didapatkan rute 0 – 2 – 5 – 1 – 6 – 3 – 7 – 4 – 0, menunjukkan jarak terpendek dengan nilai 55,42 km. 
+Proses _routing_ diawali dengan membangkitkan populasi awal terlebih dahulu menggunakan ANN (_All Nearest Neighbors_). Didapatkan rute 0 – 2 – 5 – 1 – 6 – 3 – 7 – 4 – 0, menunjukkan jarak terpendek dengan nilai 55,42 km. Setelah itu, Proses algoritma genetika dalam program dengan bahasa python dijalankan sebanyak 100 generasi. Setelah 100 generasi didapatkan solusi rute optimal yaitu 0 – 5 – 2 – 1 – 6 – 3 – 7 – 4 – 0 dengan nilai fitness 0,018440002685214583 dan total jarak 54,22 km. Solusi ini lebih baik dibandingkan solusi yang diperoleh melalui metode ANN namun tidak terlalu signifikan. Berikut ilustrasi hasil rute pengiriman barang.
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Routing.png" alt="Customer Locations Map" width="800">
 </div>
-
-Proses algoritma genetika dalam program dengan bahasa python dijalankan sebanyak 100 generasi. Setelah 100 generasi didapatkan solusi rute optimal yaitu 0 – 5 – 2 – 1 – 6 – 3 – 7 – 4 – 0 dengan nilai fitness 0,018440002685214583 dan total jarak 54,22 km.
-
-Solusi ini lebih baik dibandingkan solusi yang diperoleh melalui metode ANN namun tidak terlalu signifikan.
 
 <div align="center">
     <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan.png" alt="Customer Locations Map" width="800">
