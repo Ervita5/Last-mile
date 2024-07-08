@@ -44,7 +44,7 @@ Proses _routing_ diawali dengan membangkitkan populasi awal terlebih dahulu meng
 </div>
 
 <div align="center">
-    <img src="https://github.com/Ervita5/Issue/blob/main/Grafik%20Perbandingan%20(2).png" alt="Grafik Perbandingan Hasil" width="800">
+    <img src="https://github.com/Ervita5/Issue/blob/main/Screenshot%20(233).png" alt="Grafik Perbandingan Hasil" width="800">
 </div>
 
 Pada data ini, penggunaan _mean shift clustering_ tampaknya lebih efisien dalam  membentuk kelompok data. Hal ini ditunjukan dari penurunan jumlah _cluster_ yang dihasilkan oleh metode _mean shift clustering_ sebesar 63% dibandingkah metode _intuitif_. Jumlah _cluster_ yang lebih sedikit yang dihasilkan dapat dianggap menguntungkan dalam konteks permasalahan PLTSPHD yang menekankan minimalisasi biaya transportasi. Berdasarkan gambar diatas _mean shift clustering_ menghasilkan biaya yang lebih efisien dibandingkan dengan metode _intutif_. Hal ini ditunjukan dari penurunan biaya _mean shift clustering_ sebesar 3,51 %. Selain itu, hasil juga menunjukkan bahwa _mean shift clustering_ dapat mengurangi total jarak sebesar 27,93% dan waktu tempuh 25,83 %. dibandingkan metode _intuitif_.
