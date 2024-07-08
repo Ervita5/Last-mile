@@ -53,4 +53,4 @@ Pada data ini, penggunaan _mean shift clustering_ tampaknya lebih efisien dalam 
 
 ## Kesimpulan
 Permasalahan pengiriman barang dengan sistem _truck-drone_ pada tahap _last mile_ dapat dimodelkan menjadi _Parking Location Traveling Salesman Problem with Homogenous Drone_ (PLTSPHD) dengan memperhatikan kendala jangkauan maksimum terbang _drone_ dan jam kerja pengiriman harian. Implementasi metode _mean shift clustering_ pada model PLTSPHD menghasilkan identifikasi _cluster_ yang optimal untuk pelanggan. Hasil eksperimen menunjukkan keefisienan metode ini dalam membentuk kelompok data dan menemukan lokasi parkir optimal. Kombinasi _mean shift clustering_ dan algoritma genetika membuktikan keunggulannya dalam mengoptimalkan rute pada konteks PLTSPHD. Keseluruhan, penelitian ini memberikan kontribusi positif dalam meningkatkan efisiensi 
-pengiriman barang dengan memanfaatkan pendekatan clustering dan algoritma genetika.
+pengiriman barang dengan memanfaatkan pendekatan _clustering_ dan algoritma genetika.
